@@ -16,6 +16,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import ThemeToggleButton from './theme-toggle-button'
+import GithubButton from './github-button'
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
@@ -70,8 +71,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="https://github.com/Noralgorithm" path={path}>
+            <GithubButton />
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -91,8 +92,8 @@ const Navbar = props => {
                 <Link as={NextLink} href="/works">
                   <MenuItem>Works</MenuItem>
                 </Link>
-                <Link as={NextLink} href="/posts">
-                  <MenuItem>Posts</MenuItem>
+                <Link as={NextLink} href="https://github.com/Noralgorithm">
+                  <MenuItem>My Github</MenuItem>
                 </Link>
               </MenuList>
             </Menu>
