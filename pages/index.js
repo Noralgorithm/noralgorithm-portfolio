@@ -3,7 +3,6 @@ import {
   Box,
   Heading,
   Image,
-  Link,
   Button,
   useColorModeValue
 } from '@chakra-ui/react'
