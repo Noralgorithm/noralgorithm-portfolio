@@ -15,8 +15,9 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="my-work" title="Offside" thumbnail={img}>
-              Offside description 😎
+            <WorkGridItem id="offside" title="Offside" thumbnail={img}>
+              A web and mobile application that combined the dynamics of
+              collecting panini stickers and fantasy football.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
