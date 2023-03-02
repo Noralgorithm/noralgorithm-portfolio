@@ -3,7 +3,6 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import Section from '../../components/section'
 
 const Work = () => (
   <Layout title="offside">
@@ -39,7 +38,7 @@ const Work = () => (
       <WorkImage src='/images/Offside/dashboardImg.png' alt="offside landing page"/>
       <WorkImage src='/images/Offside/albumCoverImg.png' alt="offside landing page"/>
       <WorkImage src='/images/Offside/fantasyImg.png' alt="offside landing page"/>
-      
+
     </Container>
   </Layout>
 )
