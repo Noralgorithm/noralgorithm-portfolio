@@ -87,7 +87,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Computer science degree started.
+            Computer engineer degree started.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
