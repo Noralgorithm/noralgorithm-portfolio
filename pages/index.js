@@ -24,7 +24,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a web developer based in Venezuela!
+          Hello, I&apos;m a web developer from Venezuela!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -57,9 +57,9 @@ const Page = () => {
           </Heading>
           <Paragraph>
             {' '}
-            Hi!, I&apos;m a full-stack developer based in Venezuela with a
+            Hi!, I&apos;m a full-stack developer from Venezuela with a
             passion for building digital solutions and web applications.
-            I&apos;m currently a computer science student in the
+            I&apos;m currently a computer engineer student in the
             &quot;Universidad Católica Andrés Bello&quot;.
           </Paragraph>
           <Box align="center" my={4}>
