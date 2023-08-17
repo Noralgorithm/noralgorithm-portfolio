@@ -11,7 +11,7 @@ const Work = () => (
         Offside <Badge>2022</Badge>
       </Title>
       <P>
-        A web and mobile application that combined the dynamics of collecting
+        Web and mobile application that combined the dynamics of collecting
         panini stickers and fantasy football. It was a great business project
         that was developed under a work environment, where I had the role of
         fullstack developer.
